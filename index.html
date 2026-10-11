@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b18">
+  <title>Projet Éclipse — Accès confidentiel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="grid-overlay"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Projet Éclipse, accueil">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>PROJET <b>ÉCLIPSE</b></span>
+    </a>
+    <div class="top-status"><i></i> CANAL PRIVÉ <span class="status-divider">/</span> ACCÈS FAMILLE</div>
+  </header>
+
+  <main class="shell">
+    <section class="intro">
+      <div class="eyebrow"><span class="eyebrow-line"></span> TRANSMISSION PRIORITAIRE <span class="eyebrow-line"></span></div>
+      <h1>Une surprise<br><span>vous attend.</span></h1>
+      <p class="intro-copy">Vous avez suivi les indices. Vous êtes arrivés jusqu'ici.<br>Il ne reste plus qu'à déverrouiller la dernière étape.</p>
+      <div class="decorative-orbit" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="orbit-core"><div class="core-inner">?</div></div>
+        <span class="orbit-dot dot-a"></span><span class="orbit-dot dot-b"></span>
+        <span class="orbit-label label-a">ÉTAPE 04</span><span class="orbit-label label-b">SIGNAL DÉTECTÉ</span>
+      </div>
+    </section>
+
+    <section class="access-card" aria-labelledby="access-title">
+      <div class="card-topline"><span>TERMINAL D'AUTHENTIFICATION</span><span class="card-id">SEC-07 <b>●</b></span></div>
+      <div class="lock-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><path d="M14 21v-7a10 10 0 0 1 20 0v7" stroke="currentColor" stroke-width="2.2"/><rect x="9" y="21" width="30" height="22" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="24" cy="31" r="2.5" fill="currentColor"/><path d="M24 33.5v4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </div>
+      <h2 id="access-title">Déverrouiller l'accès</h2>
+      <p class="card-copy">Entrez le code découvert pendant votre chasse au trésor.</p>
+      <form id="code-form" novalidate>
+        <label for="secret-code">CODE DE VALIDATION</label>
+        <div class="input-wrap">
+          <span class="input-prefix">›_</span>
+          <input id="secret-code" name="code" type="password" placeholder="Saisir le code secret" autocomplete="off" spellcheck="false" required>
+          <button class="reveal-toggle" id="toggle-code" type="button" aria-label="Afficher ou masquer le code">◉</button>
+        </div>
+        <p class="error-message" id="error-message" role="alert" aria-live="polite"></p>
+        <button class="unlock-button" type="submit"><span>VALIDER LE CODE</span><span class="button-arrow">↗</span></button>
+      </form>
+      <div class="card-foot"><span class="tiny-shield">◇</span> Connexion sécurisée <span class="foot-dot">•</span> Accès réservé aux initiés</div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>© PROJET ÉCLIPSE</span><span>UNE EXPÉRIENCE EN COURS DE DÉVERROUILLAGE</span><span class="footer-coordinates">48°N · 6°E</span></footer>
+  <div class="scanline" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
